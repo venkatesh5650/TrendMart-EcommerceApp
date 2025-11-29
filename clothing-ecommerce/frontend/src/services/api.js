@@ -6,8 +6,8 @@ import axios from "axios";
  * - `withCredentials` allows cookies (JWT token) to be sent automatically.
  */
 const api = axios.create({
-  baseURL: "http://localhost:5000",
-  withCredentials: true,
+  baseURL: "https://trendmart-ecommerceapp.onrender.com",
+  withCredentials: true, // keep this for JWT cookie auth
 });
 
 export default api;
